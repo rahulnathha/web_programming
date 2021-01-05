@@ -13,13 +13,15 @@
         }
         #title{
             position: absolute;
-            color: white;
+            color: rgb(255, 255, 255);
             width: 600px;
             text-align: justify;
-
-            border-left: red;
+            border-left: 10px solid red;
+            background-image: linear-gradient(to right, rgba(70, 70, 70, 0.607), rgba(255, 255, 255, 0.069));
             left: 300px;
-            top : 100px
+            top : 100px;
+            z-index: 2;
+            padding:20px;
         }
     </style>
     <title>Video as background</title>
@@ -32,10 +34,12 @@
         </video>
         <div id = "title">
 
-            <H1 style="color: orange;">This is a beautiful video</H1>
+            <H1 style="color: orange;">Brahmaduttan's Doubt</H1>
+            The video might take time to load up depending on your internet speed.
             Any content can be placed here and the video will play
-            in the background. The value of left and top can be adjusted make 
-            this part appear anywhere you like. You can place HTML content here, like another video or image or text
+            in the background. The value of left and top can be adjusted to move this foreground content around.
+            You can place HTML content here, like another video or image or text. We will be discussing most of the tags I have used here 
+            later on in class. So it is ok if you are not able to make much sense of this.
 
         </div>
         <!-- 
