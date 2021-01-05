@@ -1,0 +1,181 @@
+<!DOCTYPE html> <!--ALmost insignificant now-->
+
+<html lang="en"> 
+    <!-- html engine -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+
+        #box{
+            border: 2px dashed orange;   
+            height: 100px;
+            width: 200px;
+            text-align: center;
+            margin:auto;
+        }
+        .green_list{
+            color: green;
+        }
+        table{
+            color: blueviolet;
+        }
+
+    </style>
+
+    <title>Document</title> <!-- this will appear in the title bar of the browse -->
+
+</head>
+<body>
+    <div id = "box">This is inside the div</div>
+    <!-- Whatever is given here will appear in the viewport -->
+    
+    <table border ="1">
+        <th>
+        <tr>
+            <td>
+                first col
+            </td>
+            <td>
+                second col
+            </td>
+            <td>
+                third col
+            </td>
+        </tr>
+        colspan and rowspan
+        <tr>
+            <td>
+                <ol>
+                    <li>
+                        First item
+                    </li>
+                    <li>
+                        Second item
+                    </li>
+                    <li>
+                        Third item
+                    </li>
+                </ol>
+            </td>
+            
+            <td>
+                sec row third col
+            </td>
+        </tr>
+    </table>
+    <table border ="1" >
+        <tr>
+            <td>
+                first col
+            </td>
+            <td>
+                second col
+            </td>
+            <td>
+                third col
+            </td>
+        </tr>
+        colspan and rowspan
+        <tr>
+            <td>
+                <ol>
+                    <li>
+                        First item
+                    </li>
+                    <li>
+                        Second item
+                    </li>
+                    <li>
+                        Third item
+                    </li>
+                </ol>
+            </td>
+            
+            <td>
+                sec row third col
+            </td>
+        </tr>
+    </table>
+    
+
+    <ol id = "ordered_list_1" class = "green_list">
+        <li>
+            First item
+        </li>
+        <li>
+            Second item
+        </li>
+        <li>
+            Third item
+        </li>
+    </ol>
+
+    <dl class = "green_list">
+        <dd>HTML is a front end markup language</dd>
+
+        <dd>CSS is used to add decorations to your HTML page</dd>
+    </dl>
+    
+
+
+    <a href = "second.html">Click me to go to second file</a>
+    <a hef = "https://www.google.com/">Click me to go to second file</a>
+    
+    <ul class = "green_list">
+    <li>
+        Tables
+    </li>
+    <li>
+        Links    
+    </li>
+    <li>
+        Forms
+        <ul>
+            <li>
+                Elements
+            </li>
+            <li>
+                Attributes
+            </li>
+        </ul>
+    </li>
+    <li>
+        Class, Id and name    
+    </li>
+    <li>
+        Introduction to CSS and JS
+    </li>
+    </ul>
+
+    <h1>WEB PROGRAMMING</h1> 
+    <p>this is without tag</p>
+    <form action = "second.html">
+       Name : <input type = "text" name = "person_name"> <br>
+       Gender : <input id = "fem" type = "radio" value = "female" name = "gender">
+                <label for = "fem">FEMALE</label>
+                <input id  = "mal" type = "radio" value = "male" name = "gender">
+                <label for = "mal">MALE</label>
+                <input id =  "OTHE"type = "radio" value = "others" name = "gender">
+                <label for = "OTHE">OTHERS</label><br>
+        Which of the following do you own:
+        <input id = "cp" type = "checkbox" value = "cellphone" name = "celp"> 
+        <label for = "cp"> Cellphone</label>
+        <input id = "car" type = "checkbox" value = "car" name = "car1">
+        <label for = "car"> car</label>
+        <input id = "mot" type = "checkbox" value = "motob" name = "motobike">
+        <label for = "mot">Motor Bike</label>
+       
+
+        person_name = "Rahul"
+        gender = "others"
+        celp = "cellphone"
+        car1 = "car"
+        motobike = "motob"
+        <input type = "submit">
+       
+    </form>
+</body>
+
+</html>
